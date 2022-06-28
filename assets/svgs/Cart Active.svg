@@ -1,0 +1,16 @@
+<svg id="Cart_Active" data-name="Cart Active" xmlns="http://www.w3.org/2000/svg" width="24" height="31.5" viewBox="0 0 24 31.5">
+  <g id="Cart" transform="translate(6484 12183)">
+    <rect id="Rectangle_609" data-name="Rectangle 609" width="24" height="24" transform="translate(-6484 -12183)" fill="#fff" opacity="0"/>
+    <g id="cart-2" data-name="cart" transform="translate(-4415.041 -6161)">
+      <g id="Icon_feather-shopping-bag" data-name="Icon feather-shopping-bag" transform="translate(-2067.983 -6021)">
+        <g id="Path_334" data-name="Path 334" transform="translate(-4.5 -3)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8.192,3,4.5,7.4V22.8A2.342,2.342,0,0,0,6.961,25H24.191a2.342,2.342,0,0,0,2.461-2.2V7.4L22.96,3Z" stroke="none"/>
+          <path d="M 9.124605178833008 5.000001907348633 L 6.499969482421875 8.127964019775391 L 6.499444961547852 22.79652214050293 C 6.512186050415039 22.83959197998047 6.660076141357422 22.99994277954102 6.961315155029297 22.99994277954102 L 24.19053649902344 22.99994277954102 C 24.49177551269531 22.99994277954102 24.6396656036377 22.83959197998047 24.65185546875 22.79995346069336 L 24.65185546875 8.127933502197266 L 22.02724456787109 5.000001907348633 L 9.124605178833008 5.000001907348633 M 8.191976547241211 3.000001907348633 L 22.95987701416016 3.000001907348633 L 26.65185546875 7.399991989135742 L 26.65185546875 22.79995346069336 C 26.65185546875 24.01497268676758 25.54988479614258 24.99994277954102 24.19053649902344 24.99994277954102 L 6.961315155029297 24.99994277954102 C 5.601964950561523 24.99994277954102 4.499996185302734 24.01497268676758 4.499996185302734 22.79995346069336 L 4.499996185302734 7.399991989135742 L 8.191976547241211 3.000001907348633 Z" stroke="none" fill="#000"/>
+        </g>
+        <path id="Path_335" data-name="Path 335" d="M5.5,9H24.566" transform="translate(-3.905 -4.6)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_336" data-name="Path 336" d="M20.629,15A4.316,4.316,0,1,1,12,15" transform="translate(-5.239 -6.2)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+  <line id="Mark_04" data-name="Mark 04" x2="9" transform="translate(7.5 30)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+</svg>

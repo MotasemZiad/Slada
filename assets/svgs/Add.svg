@@ -1,0 +1,20 @@
+<svg id="Add" xmlns="http://www.w3.org/2000/svg" width="29" height="25" viewBox="0 0 29 25">
+  <g id="Icon_feather-shopping-bag" data-name="Icon feather-shopping-bag" transform="translate(2.517 -3)">
+    <g id="Path_334" data-name="Path 334" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8.164,3,4.5,7.885v17.1a2.443,2.443,0,0,0,2.443,2.443h17.1a2.443,2.443,0,0,0,2.443-2.443V7.885L22.819,3Z" stroke="none"/>
+      <path d="M 9.163898468017578 4.999998092651367 L 6.499998092651367 8.551864624023438 L 6.499998092651367 24.9833984375 C 6.499998092651367 25.22744750976562 6.69854736328125 25.42599868774414 6.942598342895508 25.42599868774414 L 24.04079818725586 25.42599868774414 C 24.28484725952148 25.42599868774414 24.4833984375 25.22744750976562 24.4833984375 24.9833984375 L 24.4833984375 8.551864624023438 L 21.81949806213379 4.999998092651367 L 9.163898468017578 4.999998092651367 M 8.163898468017578 2.999998092651367 L 22.81949806213379 2.999998092651367 L 26.4833984375 7.885198593139648 L 26.4833984375 24.9833984375 C 26.4833984375 26.3324089050293 25.38980865478516 27.42599868774414 24.04079818725586 27.42599868774414 L 6.942598342895508 27.42599868774414 C 5.593587875366211 27.42599868774414 4.499998092651367 26.3324089050293 4.499998092651367 24.9833984375 L 4.499998092651367 7.885198593139648 L 8.163898468017578 2.999998092651367 Z" stroke="none" fill="#004cff"/>
+    </g>
+    <path id="Path_335" data-name="Path 335" d="M6.5,9H24.483" transform="translate(0 -1.115)" fill="none" stroke="#004cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_336" data-name="Path 336" d="M21.77,15A4.885,4.885,0,0,1,12,15" transform="translate(-1.394 -2.23)" fill="none" stroke="#004cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+  <g id="Group_1373" data-name="Group 1373" transform="translate(-325 -217)">
+    <g id="Ellipse_149" data-name="Ellipse 149" transform="translate(325 224)" fill="#fff" stroke="#004bfe" stroke-width="2">
+      <circle cx="9" cy="9" r="9" stroke="none"/>
+      <circle cx="9" cy="9" r="8" fill="none"/>
+    </g>
+    <g id="Group_1353" data-name="Group 1353" transform="translate(330.752 229.752)">
+      <line id="Line_98" data-name="Line 98" y2="6.66" transform="translate(3.33)" fill="none" stroke="#004bfe" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_99" data-name="Line 99" x1="6.66" transform="translate(0 3.33)" fill="none" stroke="#004bfe" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

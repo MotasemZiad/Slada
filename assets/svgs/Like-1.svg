@@ -1,0 +1,10 @@
+<svg id="Like" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="40" viewBox="0 0 47 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff5790"/>
+      <stop offset="1" stop-color="#f81140"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_3" data-name="Rectangle 3" width="47" height="40" rx="11" fill="#ffebeb"/>
+  <path id="Path_337" data-name="Path 337" d="M13,24C6.01,19.208,2.344,14.849.841,11.2-3.187,1.422,8.317-3.254,13,2.518c4.683-5.772,16.187-1.1,12.159,8.682C23.656,14.849,19.99,19.208,13,24Z" transform="translate(11 9)" fill="url(#linear-gradient)"/>
+</svg>

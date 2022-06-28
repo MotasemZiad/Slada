@@ -1,0 +1,7 @@
+<svg id="Settings" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <circle id="Ellipse_207" data-name="Ellipse 207" cx="17.5" cy="17.5" r="17.5" fill="#e5ebfc"/>
+  <g id="Icon_feather-settings" data-name="Icon feather-settings" transform="translate(9.501 9.5)">
+    <path id="Path_349" data-name="Path 349" d="M18,15.75a2.25,2.25,0,1,1-2.25-2.25A2.25,2.25,0,0,1,18,15.75Z" transform="translate(-7.75 -7.75)" fill="none" stroke="#004bfe" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_350" data-name="Path 350" d="M14.882,11.682a1.2,1.2,0,0,0,.24,1.324l.044.044a1.455,1.455,0,1,1-2.058,2.058l-.044-.044a1.21,1.21,0,0,0-2.051.858v.124a1.455,1.455,0,0,1-2.909,0V15.98a1.2,1.2,0,0,0-.785-1.1,1.2,1.2,0,0,0-1.324.24l-.044.044a1.455,1.455,0,1,1-2.058-2.058l.044-.044a1.21,1.21,0,0,0-.858-2.051H2.955a1.455,1.455,0,1,1,0-2.909H3.02a1.2,1.2,0,0,0,1.1-.785,1.2,1.2,0,0,0-.24-1.324l-.044-.044A1.455,1.455,0,1,1,5.893,3.893l.044.044a1.2,1.2,0,0,0,1.324.24h.058a1.2,1.2,0,0,0,.727-1.1V2.955a1.455,1.455,0,0,1,2.909,0V3.02a1.21,1.21,0,0,0,2.051.858l.044-.044a1.455,1.455,0,1,1,2.058,2.058l-.044.044a1.2,1.2,0,0,0-.24,1.324v.058a1.2,1.2,0,0,0,1.1.727h.124a1.455,1.455,0,0,1,0,2.909H15.98a1.2,1.2,0,0,0-1.1.727Z" transform="translate(-1.5 -1.5)" fill="none" stroke="#004bfe" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg id="Filter_Icon" data-name="Filter Icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="Rectangle" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="25" height="25" stroke="none"/>
+    <rect x="0.5" y="0.5" width="24" height="24" fill="none"/>
+  </g>
+  <g id="Icon" transform="translate(-324 -114)">
+    <g id="Group_03" data-name="Group 03" transform="translate(-0.072)">
+      <line id="Line_59" data-name="Line 59" y2="16.59" transform="translate(336.567 118.41)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Ellipse_136" data-name="Ellipse 136" cx="2.495" cy="2.495" r="2.495" transform="translate(334.072 120.401)" fill="#fff" stroke="#231f20" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Group_02" data-name="Group 02" transform="translate(0.445)">
+      <line id="Line_60" data-name="Line 60" y2="16.59" transform="translate(342.984 118.41)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Ellipse_137" data-name="Ellipse 137" cx="2.495" cy="2.495" r="2.495" transform="translate(340.555 128)" fill="#fff" stroke="#231f20" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <g id="Group_01" data-name="Group 01" transform="translate(-1)">
+      <line id="Line_61" data-name="Line 61" y2="16.59" transform="translate(330.495 118.41)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Ellipse_138" data-name="Ellipse 138" cx="2.495" cy="2.495" r="2.495" transform="translate(328 128)" fill="#fff" stroke="#231f20" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

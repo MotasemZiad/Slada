@@ -1,0 +1,14 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <circle id="Ellipse" cx="17.5" cy="17.5" r="17.5" fill="#ffebeb"/>
+  <g id="Delete" transform="translate(9 8)">
+    <g id="Group" transform="translate(2.594 5)">
+      <path id="Path" d="M11.624,17.368H6.39a2.508,2.508,0,0,1-2.467-2.5L3.1,5.3H14.988l-.822,9.563A2.524,2.524,0,0,1,11.624,17.368Z" transform="translate(-3.1 -5.3)" fill="none" stroke="#d97474" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="Group-2" data-name="Group" transform="translate(3.858 3.036)">
+        <line id="Line_37" data-name="Line 37" y2="5.996" fill="none" stroke="#d97474" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <line id="Line_38" data-name="Line 38" y2="5.996" transform="translate(4.099)" fill="none" stroke="#d97474" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+    <path id="Path-2" data-name="Path" d="M4.4,4A2.775,2.775,0,0,1,6.934,1h4.845a2.771,2.771,0,0,1,2.46,3Z" transform="translate(-0.819 1)" fill="none" stroke="#d97474" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line" x2="15" transform="translate(1 5)" fill="none" stroke="#d97474" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

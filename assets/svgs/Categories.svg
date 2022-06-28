@@ -1,0 +1,16 @@
+<svg id="Categories" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_608" data-name="Rectangle 608" width="24" height="24" fill="#fff" opacity="0"/>
+  <g id="Categories-2" data-name="Categories" transform="translate(2144.292 6021.292)">
+    <g id="filter_icon" data-name="filter icon" transform="translate(-2143.175 -6020.175)">
+      <g id="Rectangle_519" data-name="Rectangle 519" transform="translate(-0.117 -0.117)" fill="none" stroke="#004cff" stroke-width="2">
+        <rect width="22" height="22" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="20" height="20" rx="3" fill="none"/>
+      </g>
+      <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(5.123 6.072)">
+        <path id="Path_345" data-name="Path 345" d="M4.5,18H16.038" transform="translate(-4.5 -13.189)" fill="none" stroke="#004cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_346" data-name="Path 346" d="M4.5,9h7.651" transform="translate(-4.5 -9)" fill="none" stroke="#004cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_347" data-name="Path 347" d="M4.5,27h7.651" transform="translate(-4.5 -17.378)" fill="none" stroke="#004cff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

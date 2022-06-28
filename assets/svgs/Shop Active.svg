@@ -1,0 +1,15 @@
+<svg id="Shop_Active" data-name="Shop Active" xmlns="http://www.w3.org/2000/svg" width="24" height="31.5" viewBox="0 0 24 31.5">
+  <g id="Shop" transform="translate(6566 12183)">
+    <rect id="Rectangle_606" data-name="Rectangle 606" width="24" height="24" transform="translate(-6566 -12183)" fill="#fff" opacity="0"/>
+    <g id="shop-2" data-name="shop" transform="translate(-4271.491 -6160.919)">
+      <g id="home_icon" data-name="home icon" transform="translate(-2293.3 -6021)">
+        <g id="Path_327" data-name="Path 327" transform="translate(-4.5 -3)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4.5,10.63,15.349,3,26.2,10.63V22.621a2.3,2.3,0,0,1-2.411,2.18H6.911A2.3,2.3,0,0,1,4.5,22.621Z" stroke="none"/>
+          <path d="M 15.34912109375 5.445127487182617 L 6.499961853027344 11.6689395904541 L 6.499551773071289 22.61859512329102 C 6.510931015014648 22.65726470947266 6.642730712890625 22.80120468139648 6.910911560058594 22.80120468139648 L 23.78733062744141 22.80120468139648 C 24.05551147460938 22.80120468139648 24.18731117248535 22.65726470947266 24.1982421875 22.62108612060547 L 24.1982421875 11.66891288757324 L 15.34912109375 5.445127487182617 M 15.34912109375 2.999994277954102 L 26.1982421875 10.63042449951172 L 26.1982421875 22.62108612060547 C 26.1982421875 23.82513427734375 25.11884117126465 24.80120468139648 23.78733062744141 24.80120468139648 L 6.910911560058594 24.80120468139648 C 5.579401016235352 24.80120468139648 4.500001907348633 23.82513427734375 4.500001907348633 22.62108612060547 L 4.500001907348633 10.63042449951172 L 15.34912109375 2.999994277954102 Z" stroke="none" fill="#000"/>
+        </g>
+        <path id="Path_328" data-name="Path 328" d="M13.5,28.008V18h6.4V28.008" transform="translate(-5.852 -8.164)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+  <line id="Mark_01" data-name="Mark 01" x2="9" transform="translate(7.5 30)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+</svg>
