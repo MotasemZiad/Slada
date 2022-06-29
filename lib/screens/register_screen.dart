@@ -103,7 +103,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       label: 'PASSWORD',
                       controller: _passwordController,
                       isPassword: true,
-                      icon: 'assets/svgs/lock.svg',
+                      icon: 'assets/svgs/Icon awesome-lock',
                     ),
                     const SizedBox(
                       height: 48.0,
