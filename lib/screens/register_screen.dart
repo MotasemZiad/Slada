@@ -110,8 +110,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     ),
                     CustomButton(
                       label: 'Done',
-                      onTap: () {
-                      },
+                      onTap: () {},
                     ),
                     const SizedBox(
                       height: 20.0,

@@ -11,9 +11,11 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: [
-        
-      ]),
+      body: Column(
+        children: const [
+          Text('This is a login page'),
+        ],
+      ),
     );
   }
 }
