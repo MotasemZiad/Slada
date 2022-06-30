@@ -22,6 +22,11 @@ class WelcomeScreen extends StatelessWidget {
                 child: SvgPicture.asset('assets/svgs/bubble 03.svg'),
               ),
               PositionedDirectional(
+                bottom: -150,
+                end: -120,
+                child: SvgPicture.asset('assets/svgs/bubble 02.svg'),
+              ),
+              PositionedDirectional(
                 top: 80,
                 start: 20,
                 end: 20,
@@ -80,7 +85,7 @@ class WelcomeScreen extends StatelessWidget {
                           ),
                           const SizedBox(
                             height: 80,
-                          )
+                          ),
                         ],
                       ),
                     ],
