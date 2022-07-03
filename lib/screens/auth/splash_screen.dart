@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:slada/screens/login_screen.dart';
-import 'package:slada/screens/register_screen.dart';
+import 'package:get/get.dart';
+import 'package:slada/screens/auth/login_screen.dart';
+import 'package:slada/screens/auth/register_screen.dart';
 import 'package:slada/utils/color_manager.dart';
 import 'package:slada/utils/font_manager.dart';
 import 'package:slada/widgets/custom_button.dart';
@@ -73,11 +74,8 @@ class SplashScreen extends StatelessWidget {
           CustomButton(
             label: "Let's get started",
             onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const RegisterScreen(),
-                ),
+              Get.to(
+                () => const RegisterScreen(),
               );
             },
           ),
@@ -97,11 +95,8 @@ class SplashScreen extends StatelessWidget {
               ),
               IconButton(
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const LoginScreen(),
-                    ),
+                  Get.to(
+                    () => const LoginScreen(),
                   );
                 },
                 icon: Container(

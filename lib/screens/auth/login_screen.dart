@@ -1,34 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:get/get.dart';
+import 'package:slada/screens/auth/welcome_screen.dart';
 import 'package:slada/utils/color_manager.dart';
 import 'package:slada/utils/font_manager.dart';
 import 'package:slada/widgets/custom_button.dart';
-import 'package:slada/widgets/custom_image_picker.dart';
 import 'package:slada/widgets/custom_text_button.dart';
 import 'package:slada/widgets/custom_text_field.dart';
 
-class RegisterScreen extends StatefulWidget {
-  const RegisterScreen({Key? key}) : super(key: key);
+class LoginScreen extends StatefulWidget {
+  const LoginScreen({Key? key}) : super(key: key);
 
   @override
-  State<RegisterScreen> createState() => _RegisterScreenState();
+  State<LoginScreen> createState() => _LoginScreenState();
 }
 
-class _RegisterScreenState extends State<RegisterScreen> {
-  late TextEditingController _nameController;
+class _LoginScreenState extends State<LoginScreen> {
   late TextEditingController _emailController;
   late TextEditingController _passwordController;
   @override
   void initState() {
     super.initState();
-    _nameController = TextEditingController();
     _emailController = TextEditingController();
     _passwordController = TextEditingController();
   }
 
   @override
   void dispose() {
-    _nameController.dispose();
     _emailController.dispose();
     _passwordController.dispose();
     super.dispose();
@@ -46,13 +44,23 @@ class _RegisterScreenState extends State<RegisterScreen> {
             fit: StackFit.expand,
             children: [
               PositionedDirectional(
+                top: -130,
+                start: -100,
+                child: SvgPicture.asset('assets/svgs/bubble 04.svg'),
+              ),
+              PositionedDirectional(
+                top: -150,
+                start: -120,
+                child: SvgPicture.asset('assets/svgs/bubble 03.svg'),
+              ),
+              PositionedDirectional(
                 end: -150,
                 top: 80,
                 child: SvgPicture.asset('assets/svgs/bubble 01.svg'),
               ),
               PositionedDirectional(
-                top: -200,
-                start: -120,
+                bottom: -200,
+                end: -120,
                 child: SvgPicture.asset('assets/svgs/bubble 02.svg'),
               ),
               Padding(
@@ -67,27 +75,37 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       children: [
                         Padding(
                           padding: const EdgeInsets.only(
-                            top: 120,
-                            bottom: 48,
+                            top: 300,
+                            bottom: 12,
                           ),
                           child: Text(
-                            'Create\nAccount',
+                            'Login',
                             style: FontManager.raleway.copyWith(
                               color: ColorManager.black2Color,
-                              fontSize: 50,
+                              fontSize: 52,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                         ),
-                        CustomImagePicker(onTap: () {}),
-                        const SizedBox(
-                          height: 48.0,
-                        ),
-                        CustomTextField(
-                          label: 'NAME',
-                          controller: _nameController,
-                          icon: 'assets/svgs/user.svg',
-                          keyboardType: TextInputType.name,
+                        Row(
+                          children: [
+                            Text(
+                              "Good to see you back!",
+                              style: FontManager.nunitoSans.copyWith(
+                                fontSize: 20,
+                                color: ColorManager.black2Color,
+                                fontWeight: FontWeight.w300,
+                              ),
+                            ),
+                            const SizedBox(
+                              width: 4,
+                            ),
+                            const Icon(
+                              Icons.favorite,
+                              color: ColorManager.blackColor,
+                              size: 16.0,
+                            ),
+                          ],
                         ),
                         const SizedBox(
                           height: 20.0,
@@ -111,8 +129,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           height: 32.0,
                         ),
                         CustomButton(
-                          label: 'Register',
-                          onTap: () {},
+                          label: 'Login',
+                          onTap: () => Get.to(
+                            () => const WelcomeScreen(),
+                          ),
                         ),
                         const SizedBox(
                           height: 12.0,
@@ -121,7 +141,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           child: CustomTextButton(
                             label: 'Cancel',
                             onTap: () {
-                              Navigator.pop(context);
+                              Get.back();
                             },
                           ),
                         ),

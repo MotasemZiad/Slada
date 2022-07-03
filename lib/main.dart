@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:slada/screens/splash_screen.dart';
+import 'package:slada/screens/auth/splash_screen.dart';
 import 'package:slada/utils/color_manager.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Slada',
       theme: ThemeData(
         textTheme: GoogleFonts.ralewayTextTheme(),
