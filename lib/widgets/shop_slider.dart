@@ -10,21 +10,22 @@ class ShopSlider extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ClipRRect(
-      borderRadius: const BorderRadius.all(
-        Radius.circular(10.0),
+    return Container(
+      height: 140.0,
+      width: double.infinity,
+      decoration: const BoxDecoration(
+        color: Colors.green,
+        borderRadius: BorderRadius.all(
+          Radius.circular(10.0),
+        ),
+        image: DecorationImage(
+          image: AssetImage('assets/images/carousel.png'),
+          fit: BoxFit.cover,
+        ),
       ),
-      child: Container(
-        height: 140.0,
-        width: double.infinity,
-        decoration: const BoxDecoration(
-          borderRadius: BorderRadius.all(
-            Radius.circular(10.0),
-          ),
-          image: DecorationImage(
-            image: AssetImage('assets/images/carousel.png'),
-            fit: BoxFit.cover,
-          ),
+      child: ClipRRect(
+        borderRadius: const BorderRadius.all(
+          Radius.circular(10.0),
         ),
         child: Stack(
           children: [
@@ -80,7 +81,7 @@ class ShopSlider extends StatelessWidget {
                       fontSize: 12,
                       color: ColorManager.whiteColor,
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
