@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:slada/utils/color_manager.dart';
 import 'package:slada/utils/font_manager.dart';
+import 'package:slada/widgets/category_item.dart';
 import 'package:slada/widgets/custom_row.dart';
 import 'package:slada/widgets/shop_slider.dart';
 
@@ -117,8 +118,9 @@ class _HomeScreenState extends State<HomeScreen> {
                       margin: const EdgeInsets.symmetric(
                           vertical: 8.0, horizontal: 4.0),
                       decoration: BoxDecoration(
-                        borderRadius:
-                            const BorderRadius.all(Radius.circular(12)),
+                        borderRadius: const BorderRadius.all(
+                          Radius.circular(12),
+                        ),
                         color: (Theme.of(context).brightness == Brightness.dark
                                 ? Colors.white
                                 : ColorManager.primaryColor)
@@ -139,64 +141,56 @@ class _HomeScreenState extends State<HomeScreen> {
               const SizedBox(
                 height: 12.0,
               ),
-              Column(
-                children: [
-                  Row(
-                    children: const [],
+              GridView(
+                shrinkWrap: true,
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  mainAxisSpacing: 6,
+                  crossAxisSpacing: 6,
+                ),
+                children: const [
+                  CategoryItem(
+                    label: 'Clothing',
+                    quantity: 109,
+                    images: [
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                    ],
                   ),
-                  Row(
-                    children: const [],
+                  CategoryItem(
+                    label: 'Clothing',
+                    quantity: 109,
+                    images: [
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                    ],
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        "Clothing",
-                        style: FontManager.raleway.copyWith(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                          color: ColorManager.black2Color,
-                        ),
-                      ),
-                      Container(
-                        width: 38,
-                        height: 20,
-                        decoration: const BoxDecoration(
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(6.0),
-                          ),
-                          color: ColorManager.skyBlue2Color,
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(2.0),
-                          child: Text(
-                            "109",
-                            style: FontManager.raleway.copyWith(
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold,
-                              color: ColorManager.black2Color,
-                            ),
-                          ),
-                        ),
-                      )
+                  CategoryItem(
+                    label: 'Clothing',
+                    quantity: 109,
+                    images: [
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                    ],
+                  ),
+                  CategoryItem(
+                    label: 'Clothing',
+                    quantity: 109,
+                    images: [
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
+                      'assets/images/carousel.png',
                     ],
                   ),
                 ],
-              )
-              // GridView.builder(
-              //   shrinkWrap: true,
-              //   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              //     crossAxisCount: 2,
-              //     mainAxisSpacing: 6,
-              //     crossAxisSpacing: 6,
-              //   ),
-              //   itemBuilder: (context, x) => Container(
-              //     width: 165,
-              //     height: 200,
-              //     color: Colors.red,
-              //   ),
-              //   itemCount: 4,
-              // ),
+              ),
             ],
           ),
         ),
